@@ -27,15 +27,6 @@ var worldPrior = function(nObjLeft, meaningFn, worldSoFar, prevFactor) {
   }
 }
 
-// Replace the original object with this new object.
-var objReplace = function(origObj, newObj) {
-  if (origObj.name == newObj.name) {
-    return newObj;
-  } else {
-    return origObj;
-  }
-}
-
 var utterancePrior = function() {
   var utterances = ["some of the blond people are nice",
                     "all of the blond people are nice",
