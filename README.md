@@ -4,4 +4,4 @@ PSYCH 204 project. The goal is to determine who pronouns refer to using the RSA 
 
 "world\_edit.js" is the approach that modifies an existing common world, and relies on "meaning.js". You can run that file with "webppl world\_edit.js --require .". Making modifications to the initial setup requires a lot of tweaking of this file, but you should be able to replace the sentence that the listener hears, provided that it's in the utterance list. You can also uncomment the speaker and literal listener (provided that the others are commented out) in order to see how they perform. The speaker takes a world as its input, and I use testWorld for that.
 
-A great deal of this code comes from [Design and Implementation of Probabilistic Programming Languages](http://dippl.org), and provided a much-needed starting point for my project.
+A great deal of this code comes from [The Design and Implementation of Probabilistic Programming Languages](http://dippl.org), and provided a much-needed starting point for my project.
